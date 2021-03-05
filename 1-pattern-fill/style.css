@@ -1,0 +1,35 @@
+.container {
+    width: 800px;
+    margin: auto;
+}
+
+g.map > path {
+    fill: none;
+    stroke: #ccc;
+}
+
+g.bubbles > circle {
+    fill: rgba(30, 80, 100, 0.8);
+}
+
+g.hexbin > path {
+    fill: rgba(30, 80, 100, 0.8);
+}
+
+div#map-tooltip {
+    display: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 200px;
+    height: 60px;
+    background: #eee;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: -1px 1px 4px #888;
+}
+
+div#map-tooltip > div {
+    margin-bottom: 5px;
+}
